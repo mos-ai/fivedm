@@ -1,0 +1,5 @@
+.fxdk/fxserver/cache
+.fxdk/fxserver/db
+.fxdk/fxserver/.replxx_history
+.fxdk/map-resources
+.fxdk/paths-state.json

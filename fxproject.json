@@ -1,0 +1,136 @@
+{
+  "assets": {
+    "gamemodes\\maps\\fivem-map-spawns": {
+      "enabled": false
+    },
+    "gamemodes\\basic-gamemode": {
+      "enabled": true
+    },
+    "system\\hardcap": {
+      "enabled": false
+    },
+    "system\\rconlog": {
+      "enabled": false
+    },
+    "system\\sessionmanager": {
+      "enabled": false
+    },
+    "system\\baseevents": {
+      "enabled": false
+    },
+    "managers\\mapmanager": {
+      "enabled": true
+    },
+    "managers\\spawnmanager": {
+      "enabled": true
+    },
+    "ox\\oxmysql": {
+      "enabled": true
+    },
+    "ox\\ox_lib": {
+      "enabled": true
+    },
+    "ox\\ox_core": {
+      "enabled": true
+    },
+    "ox\\ox_target": {
+      "enabled": true
+    },
+    "ox\\ox_inventory": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "ox\\ox_fuel": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "ox\\ox_doorlock": {
+      "enabled": true
+    },
+    "gameplay\\chat": {
+      "enabled": true
+    },
+    "gameplay\\chat-theme-gtao": {
+      "enabled": true
+    },
+    "gameplay\\player-data": {
+      "enabled": true
+    },
+    "gameplay\\playernames": {
+      "enabled": true
+    },
+    "other\\illenium-appearance": {
+      "enabled": true
+    },
+    "other\\pma-voice": {
+      "enabled": true
+    },
+    "other\\screenshot-basic": {
+      "enabled": true
+    },
+    "other\\npwd": {
+      "enabled": true
+    },
+    "other\\pefcl": {
+      "enabled": true
+    },
+    "gameplay\\ped-money-drops": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "dx_hud": {
+      "enabled": true,
+      "restartOnChange": false
+    },
+    "test.fxworld": {
+      "enabled": true
+    },
+    "ox\\ox_inventory_addons": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "gameplay\\drop-on-death": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "bMenu": {
+      "enabled": false,
+      "restartOnChange": true
+    },
+    "lsrp_vehicleshop": {
+      "enabled": false
+    },
+    "other\\fix-carshow-room": {
+      "enabled": false,
+      "restartOnChange": true
+    },
+    "bob74_ipl": {
+      "enabled": true
+    },
+    "seatbelt": {
+      "enabled": false
+    }
+  },
+  "serverUpdateChannel": "recommended",
+  "systemResources": [
+    "webpack",
+    "yarn",
+    "rconlog",
+    "hardcap",
+    "chat",
+    "chat-theme-gtao",
+    "basic-gamemode",
+    "baseevents",
+    "player-data",
+    "playernames",
+    "sessionmanager"
+  ],
+  "name": "test",
+  "createdAt": "2024-03-09T04:58:19.811Z",
+  "variables": {
+    "mysql_connection_string": {
+      "setter": "set",
+      "value": "mysql://root:123456@localhost:3306/overextended"
+    }
+  }
+}

@@ -13,3 +13,6 @@
 [submodule "screenshot-basic"]
 	path = screenshot-basic
 	url = https://github.com/citizenfx/screenshot-basic.git
+[submodule "npwd"]
+	path = npwd
+	url = https://github.com/project-error/npwd.git

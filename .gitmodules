@@ -40,3 +40,6 @@
 [submodule "ox/oxmysql"]
 	path = ox/oxmysql
 	url = https://github.com/overextended/oxmysql.git
+[submodule "pefcl"]
+	path = pefcl
+	url = https://github.com/mos-ai/pefcl.git

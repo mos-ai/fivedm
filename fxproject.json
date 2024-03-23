@@ -1,114 +1,55 @@
 {
   "assets": {
-    "gamemodes\\maps\\fivem-map-spawns": {
-      "enabled": false
-    },
-    "gamemodes\\basic-gamemode": {
+    "bob74_ipl": {
       "enabled": true
     },
-    "system\\hardcap": {
-      "enabled": false
-    },
-    "system\\rconlog": {
-      "enabled": false
-    },
-    "system\\sessionmanager": {
-      "enabled": false
-    },
-    "system\\baseevents": {
-      "enabled": false
-    },
-    "managers\\mapmanager": {
+    "dx_hud": {
       "enabled": true
     },
-    "managers\\spawnmanager": {
+    "gameplay\\drop-on-death": {
       "enabled": true
     },
-    "ox\\oxmysql": {
+    "gameplay\\ped-money-drops": {
       "enabled": true
     },
-    "ox\\ox_lib": {
+    "illenium-appearance": {
+      "enabled": true
+    },
+    "npwd": {
       "enabled": true
     },
     "ox\\ox_core": {
       "enabled": true
     },
-    "ox\\ox_target": {
-      "enabled": true
-    },
-    "ox\\ox_inventory": {
-      "enabled": true,
-      "restartOnChange": true
-    },
-    "ox\\ox_fuel": {
-      "enabled": true,
-      "restartOnChange": true
-    },
     "ox\\ox_doorlock": {
       "enabled": true
     },
-    "gameplay\\chat": {
+    "ox\\ox_fuel": {
       "enabled": true
     },
-    "gameplay\\chat-theme-gtao": {
-      "enabled": true
-    },
-    "gameplay\\player-data": {
-      "enabled": true
-    },
-    "gameplay\\playernames": {
-      "enabled": true
-    },
-    "other\\illenium-appearance": {
-      "enabled": true
-    },
-    "other\\pma-voice": {
-      "enabled": true
-    },
-    "other\\screenshot-basic": {
-      "enabled": true
-    },
-    "other\\npwd": {
-      "enabled": true
-    },
-    "other\\pefcl": {
-      "enabled": true
-    },
-    "gameplay\\ped-money-drops": {
-      "enabled": true,
-      "restartOnChange": true
-    },
-    "dx_hud": {
-      "enabled": true,
-      "restartOnChange": false
-    },
-    "test.fxworld": {
+    "ox\\ox_inventory": {
       "enabled": true
     },
     "ox\\ox_inventory_addons": {
-      "enabled": true,
-      "restartOnChange": true
-    },
-    "gameplay\\drop-on-death": {
-      "enabled": true,
-      "restartOnChange": true
-    },
-    "bMenu": {
-      "enabled": false,
-      "restartOnChange": true
-    },
-    "lsrp_vehicleshop": {
-      "enabled": false
-    },
-    "other\\fix-carshow-room": {
-      "enabled": false,
-      "restartOnChange": true
-    },
-    "bob74_ipl": {
       "enabled": true
     },
-    "seatbelt": {
-      "enabled": false
+    "ox\\ox_lib": {
+      "enabled": true
+    },
+    "ox\\ox_target": {
+      "enabled": true
+    },
+    "screenshot-basic": {
+      "enabled": true
+    },
+    "pma-voice": {
+      "enabled": true
+    },
+    "pefcl": {
+      "enabled": true
+    },
+    "ox\\oxmysql": {
+      "enabled": true
     }
   },
   "serverUpdateChannel": "recommended",
@@ -125,7 +66,7 @@
     "playernames",
     "sessionmanager"
   ],
-  "name": "test",
+  "name": "fivedm",
   "createdAt": "2024-03-09T04:58:19.811Z",
   "variables": {
     "mysql_connection_string": {

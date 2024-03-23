@@ -7,3 +7,9 @@
 [submodule "illenium-appearance"]
 	path = illenium-appearance
 	url = https://github.com/mos-ai/illenium-appearance.git
+[submodule "pma-voice"]
+	path = pma-voice
+	url = https://github.com/AvarianKnight/pma-voice.git
+[submodule "screenshot-basic"]
+	path = screenshot-basic
+	url = https://github.com/citizenfx/screenshot-basic.git

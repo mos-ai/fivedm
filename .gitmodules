@@ -4,3 +4,6 @@
 [submodule "dx_hud"]
 	path = dx_hud
 	url = https://github.com/mos-ai/dx_hud.git
+[submodule "illenium-appearance"]
+	path = illenium-appearance
+	url = https://github.com/mos-ai/illenium-appearance.git

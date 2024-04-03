@@ -36,7 +36,9 @@ AddEventHandler('money:tryPickup', function(entity)
         -- print("source %s", source);
         -- print("playerPed %s", playerPed);
         -- print("calling addcash %s", 1000);
-        exports["pefcl"]:addCash(source, 1000)
+        local min = GetConvarInt("ped:money:drop:min", 40)
+        local max = GetConvarInt("ped:money:drop:max", 150);
+        exports["pefcl"]:addCash(source,  math.random(min, max))
         -- ["your-resource"]:addCash(source, 40)
         -- exports['money']:addMoney(source, 'cash', 40)
     end

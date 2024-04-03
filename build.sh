@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ./ox
+cd ./resources
 
 cd ./ox_core
 
@@ -29,7 +29,7 @@ cd ../../ox_inventory/web
 pnpm install
 pnpm build
 
-cd ../../../npwd
+cd ../../npwd
 
 pnpm install
 pnpm build

@@ -2,9 +2,9 @@
 -- Altering or recreating for local use only is strongly discouraged.
 
 version '1.0.0'
-description 'An example money system client.'
-author 'Cfx.re <root@cfx.re>'
-repository 'https://github.com/citizenfx/cfx-server-data'
+description 'A simple resource that drops money when a ped is killed.'
+author 'Azerothian <azerothian@illisian.com.au>'
+repository 'https://github.com/mos-ai/fivedm.git'
 
 fx_version 'bodacious'
 game 'gta5'

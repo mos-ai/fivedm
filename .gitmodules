@@ -43,3 +43,6 @@
 [submodule "pefcl"]
 	path = resources/pefcl
 	url = https://github.com/mos-ai/pefcl.git
+[submodule "rpemotes-reborn"]
+	path = rpemotes-reborn
+	url = https://github.com/mos-ai/rpemotes-reborn.git

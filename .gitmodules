@@ -1,45 +1,45 @@
 [submodule "bob74_ipl"]
-	path = bob74_ipl
+	path = resources/bob74_ipl
 	url = https://github.com/Bob74/bob74_ipl.git
 [submodule "dx_hud"]
-	path = dx_hud
+	path = resources/dx_hud
 	url = https://github.com/mos-ai/dx_hud.git
 [submodule "illenium-appearance"]
-	path = illenium-appearance
+	path = resources/illenium-appearance
 	url = https://github.com/mos-ai/illenium-appearance.git
 [submodule "pma-voice"]
-	path = pma-voice
+	path = resources/pma-voice
 	url = https://github.com/AvarianKnight/pma-voice.git
 [submodule "screenshot-basic"]
-	path = screenshot-basic
+	path = resources/screenshot-basic
 	url = https://github.com/citizenfx/screenshot-basic.git
 [submodule "npwd"]
-	path = npwd
+	path = resources/npwd
 	url = https://github.com/project-error/npwd.git
 [submodule "ox/ox_core"]
-	path = ox/ox_core
+	path = resources/ox_core
 	url = https://github.com/mos-ai/ox_core.git
 [submodule "ox/ox_doorlock"]
-	path = ox/ox_doorlock
+	path = resources/ox_doorlock
 	url = https://github.com/overextended/ox_doorlock.git
 [submodule "ox/ox_fuel"]
-	path = ox/ox_fuel
+	path = resources/ox_fuel
 	url = https://github.com/mos-ai/ox_fuel.git
 [submodule "ox/ox_inventory"]
-	path = ox/ox_inventory
+	path = resources/ox_inventory
 	url = https://github.com/mos-ai/ox_inventory.git
 [submodule "ox/ox_inventory_addons"]
-	path = ox/ox_inventory_addons
+	path = resources/ox_inventory_addons
 	url = https://github.com/mos-ai/ox_inventory_addons.git
 [submodule "ox/ox_lib"]
-	path = ox/ox_lib
+	path = resources/ox_lib
 	url = https://github.com/mos-ai/ox_lib.git
 [submodule "ox/ox_target"]
-	path = ox/ox_target
+	path = resources/ox_target
 	url = https://github.com/overextended/ox_target.git
 [submodule "ox/oxmysql"]
-	path = ox/oxmysql
+	path = resources/oxmysql
 	url = https://github.com/overextended/oxmysql.git
 [submodule "pefcl"]
-	path = pefcl
+	path = resources/pefcl
 	url = https://github.com/mos-ai/pefcl.git

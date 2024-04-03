@@ -1,0 +1,74 @@
+{
+  "assets": {
+    "bob74_ipl": {
+      "enabled": true
+    },
+    "dx_hud": {
+      "enabled": true
+    },
+    "gameplay\\drop-on-death": {
+      "enabled": true
+    },
+    "gameplay\\ped-money-drops": {
+      "enabled": true
+    },
+    "illenium-appearance": {
+      "enabled": true
+    },
+    "npwd": {
+      "enabled": true
+    },
+    "ox\\ox_core": {
+      "enabled": true
+    },
+    "ox\\ox_doorlock": {
+      "enabled": true
+    },
+    "ox\\ox_fuel": {
+      "enabled": true
+    },
+    "ox\\ox_inventory": {
+      "enabled": true
+    },
+    "ox\\ox_inventory_addons": {
+      "enabled": true
+    },
+    "ox\\ox_lib": {
+      "enabled": true
+    },
+    "ox\\ox_target": {
+      "enabled": true
+    },
+    "screenshot-basic": {
+      "enabled": true
+    },
+    "pma-voice": {
+      "enabled": true
+    },
+    "pefcl": {
+      "enabled": true
+    },
+    "ox\\oxmysql": {
+      "enabled": true
+    }
+  },
+  "serverUpdateChannel": "recommended",
+  "systemResources": [
+    "rconlog",
+    "hardcap",
+    "playernames",
+    "sessionmanager",
+    "baseevents",
+    "player-data",
+    "webpack",
+    "yarn"
+  ],
+  "name": "fivedm",
+  "createdAt": "2024-03-09T04:58:19.811Z",
+  "variables": {
+    "mysql_connection_string": {
+      "setter": "set",
+      "value": "mysql://root:123456@localhost:3306/overextended"
+    }
+  }
+}

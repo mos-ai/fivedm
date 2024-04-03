@@ -22,6 +22,7 @@ end)
 RegisterNetEvent('money:tryPickup')
 
 AddEventHandler('money:tryPickup', function(entity)
+    -- logger.log("money:tryPickup");
     if not safePositions[entity] then
         return
     end
@@ -31,10 +32,10 @@ AddEventHandler('money:tryPickup', function(entity)
     local coords = GetEntityCoords(playerPed)
 
     if #(safePositions[entity] - coords) < 2.5 then
-        -- logger.log("addCash 40");
         -- print('[[ (' .. json.encode(exports["pefcl"]) .. ')')
         -- print("source %s", source);
         -- print("playerPed %s", playerPed);
+        -- print("calling addcash %s", 1000);
         exports["pefcl"]:addCash(source, 1000)
         -- ["your-resource"]:addCash(source, 40)
         -- exports['money']:addMoney(source, 'cash', 40)

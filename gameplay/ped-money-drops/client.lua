@@ -20,6 +20,7 @@ AddEventHandler('gameEventTriggered', function(eventName, args)
                     Wait(50)
 
                     if #(GetEntityCoords(self) - origCoords) < 2.5 and HasPickupBeenCollected(pickup) then
+                        print('tryPickup', netId)
                         TriggerServerEvent('money:tryPickup', netId)
 
                         RemovePickup(pickup)

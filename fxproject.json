@@ -54,17 +54,14 @@
   },
   "serverUpdateChannel": "recommended",
   "systemResources": [
-    "webpack",
-    "yarn",
     "rconlog",
     "hardcap",
-    "chat",
-    "chat-theme-gtao",
-    "basic-gamemode",
+    "playernames",
+    "sessionmanager",
     "baseevents",
     "player-data",
-    "playernames",
-    "sessionmanager"
+    "webpack",
+    "yarn"
   ],
   "name": "fivedm",
   "createdAt": "2024-03-09T04:58:19.811Z",

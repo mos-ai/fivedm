@@ -20,7 +20,7 @@ AddEventHandler('gameEventTriggered', function(eventName, args)
                     Wait(50)
 
                     if #(GetEntityCoords(self) - origCoords) < 2.5 and HasPickupBeenCollected(pickup) then
-                        print('tryPickup', netId)
+                        -- print('tryPickup', netId)
                         TriggerServerEvent('money:tryPickup', netId)
 
                         RemovePickup(pickup)
@@ -38,7 +38,7 @@ AddEventHandler('gameEventTriggered', function(eventName, args)
                 end
             end)
 
-            logger.log('CEventNetworkEntityDamage - allowPickupNear');
+            -- logger.log('CEventNetworkEntityDamage - allowPickupNear');
             TriggerServerEvent('money:allowPickupNear', netId)
         end
     end
